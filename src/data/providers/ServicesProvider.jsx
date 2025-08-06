@@ -1,6 +1,6 @@
 "use client";
 import { createContext, useContext, useEffect, useState } from "react";
-import Services from "../api/mock";
+import { fetchProducts } from "../api/mock";
 import { toast } from "react-toastify";
 
 const ServicesContext = createContext();
@@ -9,8 +9,13 @@ export const ServicesProvider = ({ children }) => {
   const [stateServices, setStateServices] = useState(false);
 
   const getProducts = async () => {
-    const products = await Services.getProducts();
-    return products;
+    try {
+      const products = await fetchProducts();
+      return products;
+    } catch (error) {
+      toast.error("Error al cargar los productos");
+      return [];
+    }
   };
 
   const values = {
@@ -29,5 +34,3 @@ export const ServicesProvider = ({ children }) => {
 };
 
 export const useServices = () => useContext(ServicesContext);
-
-export { ServicesProvider, useServices };

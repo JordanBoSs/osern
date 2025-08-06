@@ -1,18 +1,7 @@
 import products from "./data/products.json";
 
-const fetch = (mockData, time = 0) => {
+export function fetchProducts() {
   return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(mockData);
-    }, time);
+    setTimeout(() => resolve(products), 500);
   });
-};
-
-const Services = {};
-
-Services.getProducts = async () => {
-  await fetch(products, 1000);
-  return products;
-};
-
-export default Services;
+}
