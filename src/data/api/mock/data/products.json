@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "PlayStation 5",
+    "price": 12999,
+    "description": "Consola de videojuegos de última generación.",
+    "imageUrl": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 2,
+    "name": "MacBook Pro",
+    "price": 24999,
+    "description": "Laptop profesional de alto rendimiento.",
+    "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+  },
+  {
+    "id": 3,
+    "name": "iPhone 15",
+    "price": 18999,
+    "description": "Smartphone de última generación de Apple.",
+    "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+  },
+  {
+    "id": 4,
+    "name": "Samsung Galaxy S24",
+    "price": 16999,
+    "description": "Smartphone premium de Samsung.",
+    "imageUrl": "https://images.unsplash.com/photo-1705530292519-ec81f2ace70d?q=80&w=927&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 5,
+    "name": "Nintendo Switch OLED",
+    "price": 7999,
+    "description": "Consola híbrida para jugar en casa o en movimiento.",
+    "imageUrl": "https://images.unsplash.com/photo-1680007966627-d49ae18dbbae?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 6,
+    "name": "Apple Watch Series 9",
+    "price": 8999,
+    "description": "Reloj inteligente con funciones avanzadas de salud.",
+    "imageUrl": "https://images.unsplash.com/photo-1705307543536-06ebcb39bb0c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 7,
+    "name": "AirPods Pro",
+    "price": 4999,
+    "description": "Auriculares inalámbricos con cancelación de ruido.",
+    "imageUrl": "https://images.unsplash.com/photo-1587523459887-e669248cf666?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 8,
+    "name": "GoPro HERO12",
+    "price": 6999,
+    "description": "Cámara de acción resistente al agua.",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+  },
+  {
+    "id": 9,
+    "name": "Smart TV LG 55'' 4K",
+    "price": 10999,
+    "description": "Televisión inteligente con resolución Ultra HD.",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1683121217848-44dde7d393e6?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 10,
+    "name": "Bose SoundLink Speaker",
+    "price": 3499,
+    "description": "Bocina portátil Bluetooth de alta calidad.",
+    "imageUrl": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2"
+  },
+  {
+    "id": 11,
+    "name": "Kindle Paperwhite",
+    "price": 3999,
+    "description": "Lector de libros electrónicos con luz integrada.",
+    "imageUrl": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846"
+  },
+  {
+    "id": 12,
+    "name": "Canon EOS Rebel T7",
+    "price": 8499,
+    "description": "Cámara réflex digital para fotografía profesional.",
+    "imageUrl": "https://images.unsplash.com/photo-1487283981457-92340b7c6621?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]
